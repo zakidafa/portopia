@@ -1,0 +1,154 @@
+@media screen and (max-width: 1000px) {
+  .hero .content h1,
+  .about .about-content h1,
+  .myskills .content-myskills h1 {
+    font-size: 2.6rem;
+  }
+  .hero .content p,
+  .about .about-content p,
+  .myskills .content-myskills p {
+    font-size: 0.8rem;
+  }
+  .navigation .menu ul li {
+    margin-left: 70px;
+  }
+}
+
+@media screen and (max-width: 825px) {
+  /* Hero Start */
+  .hero {
+    flex-wrap: wrap;
+  }
+  .hero .hero-img img {
+    width: 80%;
+    height: 80%;
+  }
+  .hero .content {
+    text-align: center;
+  }
+  .content .menu-icon {
+    justify-content: center;
+  }
+  .hero .hero-img {
+    order: -1;
+  }
+  /* Hero End */
+  .hero .content h1,
+  .about .about-content h1,
+  .myskills .content-myskills h1 {
+    font-size: 2.5rem;
+  }
+  .hero .content p,
+  .about .about-content p,
+  .myskills .content-myskills p {
+    font-size: 0.7rem;
+  }
+  /* About Start */
+  .img-about {
+    width: auto;
+    height: auto;
+  }
+  .about .img-about img {
+    width: 80%;
+    height: 80%;
+  }
+  section.about {
+    flex-wrap: wrap;
+  }
+  .about-content {
+    text-align: center;
+  }
+  /* About End */
+
+  /* My Skills Start */
+  .card p {
+    font-size: 0.6rem;
+  }
+
+  /* My Skills End */
+}
+
+@media screen and (max-width: 600px) {
+  /* Hero Start */
+  .hero .hero-img img {
+    width: 70%;
+    height: 70%;
+  }
+  /* Hero End */
+  .hero .content h1,
+  .about-content h1,
+  .myskills .content-myskills h1 {
+    font-size: 2rem;
+  }
+  .hero .content p,
+  .about-content p,
+  .myskills .content-myskills p,
+  .card p {
+    font-size: 0.6rem;
+  }
+  /* About Start */
+  .img-about img {
+    width: 70%;
+    height: 70%;
+  }
+  /* About End */
+  /* Nav Start */
+  .navigation .logo {
+    width: 100%;
+    border-bottom: 0.5px solid black;
+  }
+  .navigation {
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+  }
+  .navigation .menu ul li {
+    margin-left: 0px;
+    margin: 10px 50px 0px 50px;
+  }
+  /* Nav End */
+  /* My Skills Start */
+  .content-myskills {
+    width: auto;
+  }
+  /* My Skills End */
+}
+
+/* Smartphone landscape */
+@media screen and (max-width: 910px) and (max-height: 600px) and (orientation: landscape) {
+  /* Hero Start */
+  .hero {
+    width: 100%;
+  }
+  .hero .content {
+    width: 600px;
+  }
+  .hero .hero-img {
+    width: 60%;
+    height: 60%;
+  }
+  /* Hero End */
+  /* About Start */
+  .about .img-about {
+    width: 60%;
+    height: 60%;
+  }
+  /* About End */
+  .hero .content h1,
+  .about .about-content h1,
+  .myskills .content-myskills h1 {
+    font-size: 2.4rem;
+  }
+  .hero .content p,
+  .about-content p,
+  .myskills .content-myskills p {
+    font-size: 0.7rem;
+    font-weight: 500;
+  }
+  /* My Skills Start */
+  .card p {
+    font-size: 0.6rem;
+    font-weight: 500;
+  }
+  /* My Skills End */
+}
