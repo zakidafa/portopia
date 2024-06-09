@@ -70,8 +70,8 @@
 
 @media screen and (max-width: 600px) {
   /* Hero Start */
-    .hero .content {
-    margin: auto;
+  .hero .content {
+    margin: 0px;
   }
   .hero .hero-img img {
     width: 70%;
@@ -84,7 +84,7 @@
     font-size: 2rem;
   }
   .hero .content p,
-  .about-content p,
+  .about .about-content p,
   .myskills .content-myskills p,
   .card p {
     font-size: 0.6rem;
